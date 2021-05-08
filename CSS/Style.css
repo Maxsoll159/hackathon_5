@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+.Primero {
+  min-height: 100vh;
+}
+.Container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.color {
+  width: 40px;
+  height: 20px;
+  background-color: white;
+}
+.header {
+  display: flex;
+  min-height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navegacion {
+  width: 70%;
+  margin-left: 15px;
+}
+.NavegacionItems {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 240px;
+  margin-top: -15px;
+}
+button {
+  background-color: #33998b;
+  color: white;
+  text-align: center;
+  width: 100px;
+  border: #33998b;
+  height: 40px;
+  margin-right: 15px;
+}
+article h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+article p {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+.Segundo {
+  display: flex;
+}
+.Contenido {
+  margin-top: 1em;
+  width: 50%;
+  margin-left: 5em;
+}
+.color2 {
+  width: 300px;
+  height: 300px;
+  background-color: #33998b;
+  margin: 0 auto;
+  border-radius: 200px;
+  margin-top: 1em;
+}
+.Button2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100px;
+  border: 2px solid white;
+  height: 40px;
+  margin-right: 15px;
+}
+.Tercero {
+  width: 965px;
+  height: 580px;
+  margin-top: 5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: #111a19;
+}
+.color3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  background-color: #33998b;
+  margin: 5px;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.bolitas {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.Psegundo {
+  text-align: center;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 2em;
+}
+.Contenido3 {
+  width: 100%;
+}
+article a {
+  color: #33998b;
+  text-align: center;
+  margin-left: 350px;
+  font-size: 18px;
+}
+hr {
+  margin-top: 3em;
+  width: 20em;
+  margin-bottom: 3em;
+}
+.Contenido4 {
+  color: white;
+  width: 100%;
+}
+.titulos {
+  display: flex;
+  justify-content: center;
+}
+div h2 {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 50px;
+}
+div h3 {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 15px;
+}
+article div {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+h6 {
+  color: white;
+  text-align: center;
+  margin-top: 4em;
+  font-size: 15px;
+}
+.color4 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.Marcas {
+  display: flex;
+  justify-content: center;
+}
+.Marcas2 {
+  display: flex;
+  justify-content: center;
+}
+.color5 {
+  background-color: #003731;
+  height: 300px;
+  width: 480px;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.Quinto {
+  display: flex;
+  margin-top: 4em;
+}
+.color6 {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 100px;
+  margin-top: 3em;
+}
+.letrash3 {
+  color: #33998b;
+  text-align: center;
+  margin-top: 2em;
+  font-family: "Roboto", sans-serif;
+}
+.letrash4 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.footer {
+  min-width: 10vh;
+  background-color: #181818;
+  display: flex;
+  margin-top: 1em;
+}
+.footercont1 {
+  width: 40%;
+  margin: 20px;
+}
+input {
+  margin-top: 4em;
+  background-color: #181818;
+  border-top: 1px;
+  width: 380px;
+}
+.pfinal {
+  margin-top: 1em;
+  font-size: 12px;
+}
+.footercont2 {
+  display: flex;
+  justify-content: space-between;
+  width: 52%;
+  margin-top: 25px;
+}
+.lifo {
+  font-size: 12px;
+  margin-top: 1em;
+  color: #636363;
+}
